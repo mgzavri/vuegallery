@@ -1,0 +1,17 @@
+$main-color: #fff; //устанавливаем цвет background галереи
+$danger-color: darkred; //устанавливаем цвет background области для сброса картинки
+$gallery_width_max: 892; //устанавливаем макимальную ширину галереи(892px)
+$gallery_width_min: 320; //устанавливаем минимальную ширину галереи(320px)
+$gallery_image_min: 100; //устанавливаем минимальную ширину картинки(100px)
+$gallery_columnsMax: 5; //устанавливаем макимальное количество колонок(5)
+$gallery_columnsMin: 1; //устанавливаем минимальное количество колонок(1)
+
+:export { // экспортируем переменные в компонент vue
+  contWidthMax: $gallery_width_max;
+  contWidthMin: $gallery_width_min;
+  imageMin: $gallery_image_min;
+  colsMax: $gallery_columnsMax;
+  colsMin: $gallery_columnsMin;
+  touchduration:500; //устанавливаем время задержки для тача
+
+}
