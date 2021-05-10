@@ -4,16 +4,22 @@
 
 ## Project setup
 ```
+Для использования с дефолтными настройками скопируйте содержимое директории "docs" на свой сервер
+
+Для разработки склонируйте репозиторий,
+и наберите в консоли (требуется Node.js):
 npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
+Для отслеживания изменений наберите в консоли:
 npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
+Для сборки приложения наберите в консоли:
 npm run build
 ```
 
